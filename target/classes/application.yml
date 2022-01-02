@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: customer-service
+  datasource:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/RBI_Database
+      username: dreamsol
+      password: dreamsol
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
